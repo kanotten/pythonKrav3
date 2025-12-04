@@ -9,3 +9,7 @@ def meny():
     print("7. Avslutt")
 
     valg = input("Velg et tall mellom 1 og 7: ")
+    return valg 
+
+
+
