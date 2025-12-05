@@ -18,8 +18,20 @@ def addisjon():
     resultat = tall1 + tall2
     print(f"Resultatet av addisjon er: {resultat}")
 
+def subtraksjon():
+    tall1 = float(input("Skriv inn første tall: "))
+    tall2 = float(input("Skriv inn ditt andre tall: "))
+    resultat = tall1 - tall2
+    print(f"Resultatet av subtraksjon er: {resultat}")
+
+
+    
+
+
 
 valg = meny()
 
 if valg == "1":
     addisjon()
+if valg == "2":
+    subtraksjon()
