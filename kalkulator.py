@@ -30,6 +30,21 @@ def multiplikasjon():
     resultat = tall1 * tall2
     print(f"Resultat av multiplikasjon er: {resultat}")
 
+def divisjon():
+    tall1 = float(input("Skriv inn første tall: "))
+   
+    while True:
+        tall2 = float(input("Skriv inn ditt andre tall: "))
+        if tall2 != 0:
+            break
+        print("Feil!: Kan ikke dele på 0. Prøv igjen :) ")
+
+    resultat = tall1 / tall2
+    print(f"Resultatet av divisjon er: {resultat}")
+    #Her oppstod det først problem med at brukeren bare ville blitt sendt tilbake til hovedmeny, syns dette var dårlig å prøvde en bedre løsning.
+    
+    
+
 
     
 
@@ -43,3 +58,6 @@ if valg == "2":
     subtraksjon()
 if valg == "3":
     multiplikasjon()
+if valg == "4":
+    divisjon()
+    
