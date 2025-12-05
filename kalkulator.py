@@ -43,7 +43,12 @@ def divisjon():
     print(f"Resultatet av divisjon er: {resultat}")
     #Her oppstod det først problem med at brukeren bare ville blitt sendt tilbake til hovedmeny, syns dette var dårlig å prøvde en bedre løsning.
     
-    
+def potens():
+    grunnverdi = float(input("Skriv inn grunnverdi (x): "))
+    eksponent = float(input("Skriv inn eksponten (y): "))
+    resultat = grunnverdi ** eksponent
+    print(f"Resultatet av {grunnverdi} opphøyd i {eksponent} er: {resultat}")
+
 
 
     
@@ -60,4 +65,7 @@ if valg == "3":
     multiplikasjon()
 if valg == "4":
     divisjon()
+if valg == "5":
+    potens()
     
+
