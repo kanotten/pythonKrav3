@@ -65,21 +65,37 @@ def kvadratrot():
 
     
 
+while True:
+    valg = meny()
+
+    if valg == "1":
+        addisjon()
+
+    elif valg == "2":
+        subtraksjon()
+
+    elif valg == "3":
+        multiplikasjon()
+
+    elif valg == "4":
+        divisjon()
+
+    elif valg == "5":
+        potens()
+   
+
+    elif valg == "6":
+        kvadratrot()
+
+    elif valg == "7":
+        print("avslutter kalkulator, takk for at du prøvde mitt programm! ")
+        break
+
+    else:
+        print("Hmmm, sikker på at du trakk et tall mellom 1-7? Prøv igjen :)")
 
 
-valg = meny()
 
-if valg == "1":
-    addisjon()
-if valg == "2":
-    subtraksjon()
-if valg == "3":
-    multiplikasjon()
-if valg == "4":
-    divisjon()
-if valg == "5":
-    potens()
-if valg == "6":
-    kvadratrot()
+    
 
 
