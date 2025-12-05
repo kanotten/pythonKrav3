@@ -48,6 +48,18 @@ def potens():
     eksponent = float(input("Skriv inn eksponten (y): "))
     resultat = grunnverdi ** eksponent
     print(f"Resultatet av {grunnverdi} opphøyd i {eksponent} er: {resultat}")
+#Her kan det oppstå feil ved for høye tall, eller string som i tekst. jeg legger til en løsning jeg fant ut: 
+
+def kvadratrot():
+    while True:
+        tall = float(input("Skriv inn et tall: "))
+        if tall >= 0:
+            break
+        print("Feil!: Kan ikke ta kvadratrot av negative tall. prøv igjen :) ")
+    
+    resultat = tall ** 0.5
+    print(f"Kvadratroten av {tall} er: {resultat}")
+
 
 
 
@@ -67,5 +79,7 @@ if valg == "4":
     divisjon()
 if valg == "5":
     potens()
-    
+if valg == "6":
+    kvadratrot()
+
 
