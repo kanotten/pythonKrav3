@@ -10,6 +10,7 @@ def meny():
 
     valg = input("Velg et tall mellom 1 og 7: ")
     return valg 
+# valg returnerer som tekst fordi det er et meny valg og ikke selve tall i kalkulator, husk dette!
 
-
-
+def addisjon():
+    tall = float
