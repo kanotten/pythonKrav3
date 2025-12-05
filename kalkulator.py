@@ -13,4 +13,13 @@ def meny():
 # valg returnerer som tekst fordi det er et meny valg og ikke selve tall i kalkulator, husk dette!
 
 def addisjon():
-    tall = float
+    tall1 = float(input("Skriv inn første tall: "))
+    tall2 = float(input("Skriv inn ditt andre tall: "))
+    resultat = tall1 + tall2
+    print(f"Resultatet av addisjon er: {resultat}")
+
+
+valg = meny()
+
+if valg == "1":
+    addisjon()
