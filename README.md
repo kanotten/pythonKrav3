@@ -21,7 +21,7 @@ Siden man ikke kan dele på null, blir bruker sendt helt tilbake til meny istede
 
 4. Potens
 
-Ved veldig høye tall gir python et overflow porblem og gir derfor ugyldig resultater. dette påvirket ikke oppgaven så det ble ikke endret, men kun observert
+Ved veldig høye tall gir python et overflow problem og gir derfor ugyldig resultater. dette påvirket ikke oppgaven så det ble ikke endret, men kun observert
 
 5. Kvadratrot
 
@@ -29,7 +29,7 @@ Man kan ikke få kvadratrot av negative tall og gir samme problem med at man bli
 
 6. Meny loop
 
-Menyens loop ble ganske repeterende med min løsning (if og elif). Jeg fant andre måter å løse dette på, men det var mer avansert enn mitt nivå så hold meg til standard.
+Menyens loop ble ganske repeterende med min løsning (if og elif). Jeg fant andre måter å løse dette på, men det var mer avansert enn mitt nivå så holdt meg til standard.
 
 
 ## Kilder og verktøy
